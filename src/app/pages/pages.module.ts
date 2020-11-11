@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import {ComponentsModule} from '../components/components.module';
 import { ProfileComponent } from './profile/profile.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import {AppRoutingModule} from '../app-routing.module';
 
 
 
@@ -12,7 +13,8 @@ import {ReactiveFormsModule} from '@angular/forms';
   imports: [
     CommonModule,
     ComponentsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ]
 })
 export class PagesModule { }

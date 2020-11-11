@@ -11,7 +11,7 @@ export class UserService {
   constructor(public http: HttpClient) { }
 
   getUser(username: string = 'juanpalacor'){
-    return this.http.get('../../../../assets/json/profile.json')
+    return this.http.get('assets/json/profile.json')
       .pipe(
         map((data: any) => data)
       );
