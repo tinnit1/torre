@@ -14,7 +14,7 @@ import {PagesModule} from './pages/pages.module';
 import {ToastrModule} from 'ngx-toastr';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
-import {CommonModule} from '@angular/common';
+import {CommonModule, HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {PipesModule} from './pipes/pipes.module';
 
 @NgModule({
@@ -45,7 +45,10 @@ import {PipesModule} from './pipes/pipes.module';
       logOnly: environment.production, // Restrict extension to log-only mode
     }),
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy,
+    useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule {
