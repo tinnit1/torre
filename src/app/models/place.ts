@@ -3,7 +3,7 @@ export class Place {
     public remote: boolean,
     public anywhere: boolean,
     public timezone: boolean,
-    public location: string,
+    public location: any,
   ) {
   }
 }

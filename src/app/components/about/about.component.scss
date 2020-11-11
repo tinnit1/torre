@@ -110,21 +110,13 @@
 
   &__img {
     display: block;
-    width: 100%;
+    width: 34rem;
   }
 
   &__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem; //1em = 14px;
-    -moz-column-rule: 1px solid $color-grey-light-2;
-
-    column-count: 2;
-    column-gap: 4rem; //1em = 14px;
-    column-rule: 1px solid $color-grey-light-2;
-
+    text-align: justify;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
