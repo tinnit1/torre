@@ -6,7 +6,7 @@ import {Pipe, PipeTransform} from '@angular/core';
 export class IconPipe implements PipeTransform {
 
   transform(icon: string): any {
-    let url = '../../../assets/icons/';
+    let url = 'assets/icons/';
     console.log(icon);
     switch (icon) {
       case 'linkedin':
