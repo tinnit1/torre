@@ -1,0 +1,728 @@
+{
+  "person": {
+    "professionalHeadline": "Ingeniero mecatrónico",
+    "completion": 0.5556,
+    "showPhone": false,
+    "created": "2020-07-14T16:52:04Z",
+    "verified": true,
+    "flags": {
+      "benefits": false,
+      "canary": false,
+      "enlauSource": false,
+      "fake": false,
+      "featureDiscovery": true,
+      "getSignaledBenefitsViewed": true,
+      "firstSignalSent": true,
+      "promoteYourselfBenefitsViewed": false,
+      "promoteYourselfCompleted": false,
+      "importingLinkedin": false,
+      "onBoarded": true,
+      "remoter": true,
+      "signalsFeatureDiscovery": true,
+      "signedInToOpportunities": true,
+      "importingLinkedinRecommendations": true,
+      "contactsImported": false,
+      "appContactsImported": false,
+      "genomeCompletionAcknowledged": false
+    },
+    "weight": 0,
+    "locale": "es",
+    "subjectId": "184916",
+    "picture": "https://starrgate.s3.amazonaws.com:443/users/775ba4e79cf55bf6064c107e06ab43bcead86bcd/profile_E7dWBCW.jpg",
+    "hasEmail": true,
+    "name": "Juan Sebastian Palacios Cortes",
+    "links": [
+      {
+        "id": "JyQxGBvj",
+        "name": "linkedin",
+        "address": "https://www.linkedin.com/in/juan-sebastian-palacios-cortes-7a01b4102/"
+      },
+      {
+        "id": "7M26G54M",
+        "name": "twitter",
+        "address": "https://twitter.com/JuanSeb06181055"
+      },
+      {
+        "id": "Oj64KngN",
+        "name": "facebook",
+        "address": "https://facebook.com/juanse506"
+      },
+      {
+        "id": "BMLnBoQy",
+        "name": "github",
+        "address": "https://github.com/tinnit1"
+      },
+      {
+        "id": "vy5a95oy",
+        "name": "instagram",
+        "address": "https://instagram.com/juanpalacor"
+      },
+      {
+        "id": "ANa2aYDM",
+        "name": "gitlab",
+        "address": "https://gitlab.com/juanpalacor"
+      }
+    ],
+    "location": {
+      "name": "Bogota D.C., Colombia",
+      "shortName": "Canada",
+      "latitude": 4.7109886,
+      "longitude": -74.072092,
+      "timezone": "America/Bogota",
+      "timezoneOffSet": -18000000
+    },
+    "theme": "blue500",
+    "id": "bjAOW8vN",
+    "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/775ba4e79cf55bf6064c107e06ab43bcead86bcd/profile_E7dWBCW/b31e26291ac07ff5313e0a79e52cc3b2.jpg",
+    "claimant": false,
+    "summaryOfBio": "Profesional en ingeniería Mecatrónica en la Universidad de Boyacá diseño e\nimplemento soluciones adecuadas para la comunidad y la industria, en áreas\nrelacionadas con el control y la automatización de procesos industriales y el\ndesarrollo de Sistemas Mecatrónicos, a partir de una formación que surge de la\nintegración sinérgica de los campos de la mecánica, la electrónica, el control y\nla informática. Poseo destrezas para investigar y adaptar tecnologías de punta\nen forma multidisciplinaria a fin de generar desarrollo tecnológico y científico, en\narmonía con el medio ambiente, con una formación humanista que me permite\nmejorar la calidad de vida y conservar los valores humanos, sociales y éticos, en\nbeneficio del progreso social y económico de la región y del país.\n\nCapacidad de adaptación a diferentes condiciones laborales, trabajo en equipo\ny liderazgo para realizar proyectos a largo y corto plazo, interés por el crecimiento\nacadémico y el aprendizaje empírico. ",
+    "weightGraph": "https://hcti.io/v1/image/fb0f5418-be10-40bb-9edf-99730ded874b",
+    "publicId": "juanpalacor"
+  },
+  "stats": {
+    "jobs": 6,
+    "education": 1,
+    "strengths": 18,
+    "interests": 3
+  },
+  "strengths": [
+    {
+      "id": "RyDoJb3j",
+      "code": 41638,
+      "name": "Electronica",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-20T22:54:07"
+    },
+    {
+      "id": "mjlXxeDj",
+      "code": 31692,
+      "name": "Stripe",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:12:53"
+    },
+    {
+      "id": "gMRRWz2M",
+      "code": 49214,
+      "name": "PostgreSQL",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:12:17"
+    },
+    {
+      "id": "JyQkzlqM",
+      "code": 5993,
+      "name": "AWS",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:09:17"
+    },
+    {
+      "id": "qNP18zrM",
+      "code": 21290,
+      "name": "MongoDB",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:09:05"
+    },
+    {
+      "id": "AMWb7xBN",
+      "code": 19243,
+      "name": "Firebase",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:08:58"
+    },
+    {
+      "id": "pyJ1pvWj",
+      "code": 50183,
+      "name": "React Native",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:08:47"
+    },
+    {
+      "id": "OMvGEY3j",
+      "code": 50182,
+      "name": "React",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:08:43"
+    },
+    {
+      "id": "pydmBb5N",
+      "code": 23813,
+      "name": "Node.js",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:08:33"
+    },
+    {
+      "id": "ZNOBX89y",
+      "code": 56207,
+      "name": "Angular",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:08:29"
+    },
+    {
+      "id": "WNVbP06N",
+      "code": 26687,
+      "name": "Flutter",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:08:16"
+    },
+    {
+      "id": "vN8e3pDM",
+      "code": 187058,
+      "name": "Lider de equipo",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T21:06:43"
+    },
+    {
+      "id": "ny18JB5j",
+      "code": 187057,
+      "name": "Liderazgo de equipo",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T20:55:44"
+    },
+    {
+      "id": "ANab4kDM",
+      "code": 234085,
+      "name": "Desarrollo de software",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T20:55:34"
+    },
+    {
+      "id": "Oj63WBgy",
+      "code": 55664,
+      "name": "Trabajo en equipo",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-08-19T20:55:29"
+    },
+    {
+      "id": "kNmk2OQj",
+      "code": 55925,
+      "name": "Liderazgo",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-07-14T16:56:33"
+    },
+    {
+      "id": "JMe70VKy",
+      "code": 167629,
+      "name": "Planificación",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-07-14T16:56:33"
+    },
+    {
+      "id": "bjA5lp1j",
+      "code": 187451,
+      "name": "Estratégico",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-07-14T16:56:33"
+    }
+  ],
+  "interests": [
+    {
+      "id": "7M2Gr42j",
+      "code": 177818,
+      "name": "Ciencia de los datos",
+      "media": [],
+      "created": "2020-07-14T16:57:10"
+    },
+    {
+      "id": "Oj6KeLQy",
+      "code": 55159,
+      "name": "AI",
+      "media": [],
+      "created": "2020-07-14T16:57:10"
+    },
+    {
+      "id": "BMLBQKby",
+      "code": 62282,
+      "name": "Learning",
+      "media": [],
+      "created": "2020-07-14T16:57:10"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "zNGEE2vj",
+      "category": "education",
+      "name": "Ingeniería Mecatrónica",
+      "organizations": [],
+      "responsibilities": [],
+      "fromMonth": "February",
+      "fromYear": "2010",
+      "toMonth": "July",
+      "toYear": "2017",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1
+    },
+    {
+      "id": "8yZG7qGN",
+      "category": "jobs",
+      "name": "Full stack developer",
+      "organizations": [
+        {
+          "id": 459298,
+          "name": "Famosos.com",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/c_scale,h_200,w_200/v1602396772/origin/bio/organizations/s7skcfbgpsnoytep0mns.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "November",
+      "fromYear": "2019",
+      "toMonth": "June",
+      "toYear": "2020",
+      "remote": false,
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1
+    },
+    {
+      "id": "gMRGADnj",
+      "category": "jobs",
+      "name": "Full stack developer",
+      "organizations": [
+        {
+          "id": 338261,
+          "name": "MyGoTrainer"
+        }
+      ],
+      "responsibilities": [
+        "web and mobile developer"
+      ],
+      "fromMonth": "April",
+      "fromYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2
+    },
+    {
+      "id": "wM78qV3j",
+      "category": "jobs",
+      "name": "Lider de proyectos",
+      "organizations": [
+        {
+          "id": 325064,
+          "name": "Version One S.A.S"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "February",
+      "fromYear": "2019",
+      "toMonth": "April",
+      "toYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 3
+    },
+    {
+      "id": "GNKrzqVy",
+      "category": "jobs",
+      "name": "desarrollador .NET",
+      "organizations": [
+        {
+          "id": 325064,
+          "name": "Version One S.A.S"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2019",
+      "toMonth": "February",
+      "toYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 4
+    },
+    {
+      "id": "mjlJ2QEN",
+      "category": "jobs",
+      "name": "Pasante",
+      "organizations": [
+        {
+          "id": 351969,
+          "name": "Universidad de Boyacá",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600919641/origin/bio/organizations/Universidad_de_Boyaca_CC_81_elqryq.jpg"
+        }
+      ],
+      "responsibilities": [
+        "Líder de laboratorio Automatización y control."
+      ],
+      "fromMonth": "March",
+      "fromYear": "2017",
+      "toMonth": "July",
+      "toYear": "2017",
+      "remote": false,
+      "additionalInfo": "Colombia",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 5
+    },
+    {
+      "id": "pyd62YpM",
+      "category": "jobs",
+      "name": "CO-Founder",
+      "organizations": [
+        {
+          "id": 341853,
+          "name": "Automatízame LTDA"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "August",
+      "fromYear": "2017",
+      "remote": false,
+      "additionalInfo": "Colombia",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 6
+    }
+  ],
+  "awards": [],
+  "jobs": [
+    {
+      "id": "8yZG7qGN",
+      "category": "jobs",
+      "name": "Full stack developer",
+      "organizations": [
+        {
+          "id": 459298,
+          "name": "Famosos.com",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/c_scale,h_200,w_200/v1602396772/origin/bio/organizations/s7skcfbgpsnoytep0mns.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "November",
+      "fromYear": "2019",
+      "toMonth": "June",
+      "toYear": "2020",
+      "remote": false,
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1
+    },
+    {
+      "id": "gMRGADnj",
+      "category": "jobs",
+      "name": "Full stack developer",
+      "organizations": [
+        {
+          "id": 338261,
+          "name": "MyGoTrainer"
+        }
+      ],
+      "responsibilities": [
+        "web and mobile developer"
+      ],
+      "fromMonth": "April",
+      "fromYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2
+    },
+    {
+      "id": "wM78qV3j",
+      "category": "jobs",
+      "name": "Lider de proyectos",
+      "organizations": [
+        {
+          "id": 325064,
+          "name": "Version One S.A.S"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "February",
+      "fromYear": "2019",
+      "toMonth": "April",
+      "toYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 3
+    },
+    {
+      "id": "GNKrzqVy",
+      "category": "jobs",
+      "name": "desarrollador .NET",
+      "organizations": [
+        {
+          "id": 325064,
+          "name": "Version One S.A.S"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2019",
+      "toMonth": "February",
+      "toYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 4
+    },
+    {
+      "id": "mjlJ2QEN",
+      "category": "jobs",
+      "name": "Pasante",
+      "organizations": [
+        {
+          "id": 351969,
+          "name": "Universidad de Boyacá",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600919641/origin/bio/organizations/Universidad_de_Boyaca_CC_81_elqryq.jpg"
+        }
+      ],
+      "responsibilities": [
+        "Líder de laboratorio Automatización y control."
+      ],
+      "fromMonth": "March",
+      "fromYear": "2017",
+      "toMonth": "July",
+      "toYear": "2017",
+      "remote": false,
+      "additionalInfo": "Colombia",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 5
+    },
+    {
+      "id": "pyd62YpM",
+      "category": "jobs",
+      "name": "CO-Founder",
+      "organizations": [
+        {
+          "id": 341853,
+          "name": "Automatízame LTDA"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "August",
+      "fromYear": "2017",
+      "remote": false,
+      "additionalInfo": "Colombia",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 6
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "education": [
+    {
+      "id": "zNGEE2vj",
+      "category": "education",
+      "name": "Ingeniería Mecatrónica",
+      "organizations": [],
+      "responsibilities": [],
+      "fromMonth": "February",
+      "fromYear": "2010",
+      "toMonth": "July",
+      "toYear": "2017",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "MBqx142N",
+      "interest": "jobs",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "M9KxrPOy",
+      "interest": "gigs",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "NOYnOVbj",
+      "interest": "internships",
+      "field": "active",
+      "data": false
+    },
+    {
+      "id": "jl9md6Py",
+      "interest": "mentoring",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "yd8wdx2y",
+      "interest": "advising",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "ykB3k28j",
+      "interest": "jobs",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "yZGXOg9N",
+      "interest": "gigs",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "M3OKVgwM",
+      "interest": "internships",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "yJkaObEN",
+      "interest": "jobs",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "Mgz7dwmN",
+      "interest": "jobs",
+      "field": "desirable-compensation-amount",
+      "data": 30
+    },
+    {
+      "id": "yXwJOqpj",
+      "interest": "jobs",
+      "field": "desirable-compensation-periodicity",
+      "data": "yearly"
+    },
+    {
+      "id": "yZGXOg5N",
+      "interest": "jobs",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {
+      "id": "MvQzdVxN",
+      "interest": "gigs",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "MqPqdb8N",
+      "interest": "gigs",
+      "field": "desirable-compensation-amount",
+      "data": 20
+    },
+    {
+      "id": "yJkaOm2N",
+      "interest": "gigs",
+      "field": "desirable-compensation-periodicity",
+      "data": "hourly"
+    },
+    {
+      "id": "yXwJOGZj",
+      "interest": "gigs",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {
+      "id": "MWWqXEdM",
+      "interest": "industries",
+      "field": "types",
+      "data": [
+        {
+          "code": 11199,
+          "locale": "es",
+          "name": "Programación"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "code": "es",
+      "language": "Spanish",
+      "fluency": "fully-fluent"
+    },
+    {
+      "code": "en",
+      "language": "English",
+      "fluency": "conversational"
+    }
+  ]
+}
