@@ -1,1 +1,17 @@
-<p>profile works!</p>
+<header class="header">
+  <div class="header__logo-box">
+    <a href="/"> <img src="assets/icons/torre.png" alt="Logo" class="header__logo"></a>
+  </div>
+  <div class="header__text-box">
+    <h1 class="heading-profile">
+      <span class="heading-profile--main">{{user?.person?.name}}</span>
+      <span class="heading-profile--sub">{{user?.person?.professionalHeadline}}</span>
+    </h1>
+  </div>
+  <ul class="link">
+    <li *ngFor="let red of user?.person.links">
+      <a [href]="red.address" target="_blank"><app-link [type]="red.name"></app-link></a>
+    </li>
+  </ul>
+  <span class="heading-profile--aux">{{user?.person.location.name}}</span>
+</header>

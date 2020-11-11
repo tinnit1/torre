@@ -41,11 +41,6 @@ export class AboutComponent implements OnInit {
   }
 
   show(id: string) {
-    console.log(id);
     this.store.dispatch(loadOpportunity({id}));
-  }
-
-  goToUrl(): void {
-
   }
 }

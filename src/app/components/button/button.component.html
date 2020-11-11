@@ -5,6 +5,6 @@
   </div>
 
   <div class="form__group">
-    <button [routerLink]="username === '' ? [] : ['/profile']" class="btn btn--white" type="submit">search you`r profile</button>
+    <button class="btn btn--white" type="submit" [value]="username">search you`r profile</button>
   </div>
 </form>

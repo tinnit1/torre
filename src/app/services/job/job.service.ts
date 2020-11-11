@@ -1,19 +1,18 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {RootObject} from '../../models/rootObject';
 import {map} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class JobService {
 
   constructor(public http: HttpClient) { }
 
-  getUser(username: string = 'juanpalacor'){
-    return this.http.get('../../../../assets/json/profile.json')
+  getJobs(){
+    return this.http.post('https://search.torre.co/opportunities/_search/?[offset=1&size=3&aggregate=jobs]', {})
       .pipe(
-        map((data: any) => data)
+        map((data: any) => data.results)
       );
-    }
+  }
 }

@@ -18,7 +18,7 @@
         meet our best recruiters, they will help you reach the best positions in the best companies.
       </p>
 
-      <a href="https://torre.co/es/search/jobs" target="_blank"  (click)="goToUrl()" class="btn-text">Learn more &rarr;</a>
+      <a href="https://torre.co/es/search/jobs" target="_blank" class="btn-text">Learn more &rarr;</a>
     </div>
     <div class="col-1-of-2">
       <div class="composition">
@@ -40,7 +40,7 @@
       <img [src]="opportunity?.organizations[0]?.picture" alt="Tour photo" class="popup__img">
     </div>
     <div class="popup__right">
-      <a href="#section-tours" class="popup__close">&times;</a>
+      <a href="#section" class="popup__close">&times;</a>
       <h2 class="heading-secondary u-margin-bottom-small">{{opportunity?.objective}}</h2>
       <h3 class="heading-tertiary u-margin-bottom-small">Location
         :{{opportunity?.place?.location.length > 0 ? ' ' + opportunity?.place?.location[0].id : ' remote'}}</h3>

@@ -5,43 +5,30 @@ import {Store} from '@ngrx/store';
 import {AppState} from '../../store/app.reducer';
 import {loadUser} from '../../store/actions';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-button',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.scss']
 })
-export class ButtonComponent implements OnInit, OnDestroy {
-  username = '';
+export class ButtonComponent implements OnInit {
+  username = 'juanpalacor';
   userForm: FormGroup;
-  userSubscription: Subscription;
-  user: RootObject;
-  loading = false;
-  error: any;
 
-  constructor(private store: Store<AppState>, private formBuilder: FormBuilder) {
-    this.store.select('user').subscribe(({user, loading, error}) => {
-      this.user = user;
-      this.loading = loading;
-      this.error = error;
-    });
+  constructor(private store: Store<AppState>, private formBuilder: FormBuilder, private  router: Router) {
   }
 
   ngOnInit(): void {
     this.userForm = this.formBuilder.group({
-      name: ['', Validators.required],
+      name: ['juanpalacor', Validators.required],
     });
   }
 
-  ngOnDestroy(): void {
-    this.userSubscription?.unsubscribe();
-  }
-
-  onClick() {
+  async onClick() {
     console.log(this.userForm.value.name);
     if (this.userForm.value.name !== '') {
-      console.log('paso');
-      this.store.dispatch(loadUser({username: this.userForm.value.name}));
+      await this.router.navigate(['/profile']);
     }
   }
 

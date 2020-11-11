@@ -6,106 +6,41 @@
   </div>
 
   <div class="row">
-    <div class="col-1-of-3">
-      <div class="card">
-        <div class="card__side card__side--front">
-          <div class="card__picture card__picture--1">
-            &nbsp;
-          </div>
-          <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--1">
-                                                            Staff Software Engineer
-                            </span>
-          </h4>
-          <div class="card__details">
-            <ul>
-              <li>Empleo a tiempo completo</li>
-              <li>Remoto</li>
-              <li>Software developer</li>
-              <li>Java</li>
-              <li>Kotlin</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card__side card__side--back card__side--back-1">
-          <div class="card__cta">
-            <div class="card__price-box">
-              <p class="card__price-only">año</p>
-              <p class="card__price-value">USD $150 - 170k</p>
+    <ng-template ngFor let-item [ngForOf]="job" let-i = index>
+      <div class="col-1-of-3">
+        <div class="card">
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--{{i + 1}}">
             </div>
-            <a href="#" class="btn btn--white">Apply!</a>
+            <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--{{i + 1}}">
+                                                            {{item.objective}}
+                            </span>
+            </h4>
+            <div class="card__details">
+              <ul>
+                <li>{{item?.skills[0].name}}</li>
+                <li>{{item?.skills[1].name}}</li>
+                <li>{{item?.skills[2].name}}</li>
+                <li>status: {{item?.status}}</li>
+                <li>Remote: {{item?.remote ? 'Yes' : 'No'}}</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card__side card__side--back card__side--back-1">
+            <div class="card__cta">
+              <div class="card__price-box">
+                <p class="card__price-only">{{item?.compensation.data.periodicity}}</p>
+                <p class="card__price-value">{{item?.compensation.data.currency}} {{item?.compensation.data.minAmount}} - {{item?.compensation.data.maxAmount}}</p>
+              </div>
+              <a href="#" class="btn btn--white">Apply!</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="col-1-of-3">
-      <div class="card">
-        <div class="card__side card__side--front">
-          <div class="card__picture card__picture--2">
-            &nbsp;
-          </div>
-          <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--2">
-                                                            Back - end
-                            </span>
-          </h4>
-          <div class="card__details">
-            <ul>
-              <li>Empleo a tiempo completo</li>
-              <li>Remoto</li>
-              <li>Software developer</li>
-              <li>Java</li>
-              <li>Kotlin</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card__side card__side--back card__side--back-2">
-          <div class="card__cta">
-            <div class="card__price-box">
-              <p class="card__price-only">año</p>
-              <p class="card__price-value">USD $150 - 170k</p>
-            </div>
-            <a href="#popup" class="btn btn--white">Apply!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-1-of-3">
-      <div class="card">
-        <div class="card__side card__side--front">
-          <div class="card__picture card__picture--3">
-            &nbsp;
-          </div>
-          <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--3">
-                                                            Front - end
-                            </span>
-          </h4>
-          <div class="card__details">
-            <ul>
-              <li>Empleo a tiempo completo</li>
-              <li>Remoto</li>
-              <li>Software developer</li>
-              <li>Java</li>
-              <li>Kotlin</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card__side card__side--back card__side--back-3">
-          <div class="card__cta">
-            <div class="card__price-box">
-              <p class="card__price-only">año</p>
-              <p class="card__price-value">USD $150 - 170k</p>
-            </div>
-            <a href="#" class="btn btn--white">Apply!</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    </ng-template>
   </div>
   <div class="u-center-text u-margin-top-huge">
-    <a href="#" class="btn btn--green">Discover more jobs</a>
+    <a href="https://torre.co/es/search/jobs" target="_blank" class="btn btn--green">Discover more jobs</a>
   </div>
 </section>

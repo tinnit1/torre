@@ -7,21 +7,25 @@ import { FeaturesComponent } from './features/features.component';
 import {RouterModule} from '@angular/router';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { PopupComponent } from './popup/popup.component';
+import { LinkComponent } from './link/link.component';
+import {PipesModule} from '../pipes/pipes.module';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, ButtonComponent, AboutComponent, FeaturesComponent, PopupComponent],
+  declarations: [HeaderComponent, ButtonComponent, AboutComponent, FeaturesComponent, PopupComponent, LinkComponent],
   exports: [
     HeaderComponent,
     AboutComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    LinkComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
     FormsModule,
     ReactiveFormsModule,
+    PipesModule,
   ]
 })
 export class ComponentsModule { }

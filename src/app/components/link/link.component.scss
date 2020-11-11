@@ -1,0 +1,7 @@
+.icon-link {
+  width: 3rem;
+
+  &:not(last-child) {
+    margin-left: 2rem;
+  }
+}

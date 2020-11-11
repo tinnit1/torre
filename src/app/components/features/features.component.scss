@@ -59,15 +59,15 @@
     border-top-right-radius: 3px;
 
     &--1 {
-      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url("../../../assets/img/stripe.jpg");
+      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url("../../../assets/img/torre-back.png");
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url("../../../assets/img/stripe.jpg");
+      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url("../../../assets/img/torre-back.png");
     }
 
     &--3 {
-      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url("../../../assets/img/stripe.jpg");
+      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url("../../../assets/img/torre-back.png");
     }
   }
 

@@ -14,6 +14,8 @@ import {PagesModule} from './pages/pages.module';
 import {ToastrModule} from 'ngx-toastr';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
+import {CommonModule} from '@angular/common';
+import {PipesModule} from './pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -26,8 +28,10 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    CommonModule,
     HttpClientModule,
     RouterModule,
+    PipesModule,
     ToastrModule.forRoot(),
     // modulos independientes
     PagesModule,
