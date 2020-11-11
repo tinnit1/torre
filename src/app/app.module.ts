@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
 import {StoreModule} from '@ngrx/store';
 import {appReducers} from './store/app.reducer';
 import {effectsArray} from './store/effects';
@@ -11,15 +11,24 @@ import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {environment} from '../environments/environment.prod';
 import {RouterModule} from '@angular/router';
 import {PagesModule} from './pages/pages.module';
+import {ToastrModule} from 'ngx-toastr';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
+  exports: [
+    BrowserAnimationsModule
+  ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule,
+    ToastrModule.forRoot(),
     // modulos independientes
     PagesModule,
     // modulos NgRx
@@ -35,4 +44,5 @@ import {PagesModule} from './pages/pages.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

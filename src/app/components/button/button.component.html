@@ -1,10 +1,10 @@
-<form class="form">
+<form class="form" [formGroup]="userForm" (ngSubmit)="onClick()">
   <div class="form__group">
-    <input type="text" class="form__input" placeholder="UserName" id="name" required>
+    <input type="text" class="form__input" placeholder="UserName" id="name" formControlName="name" required>
     <label for="name" class="form__label">UserName</label>
   </div>
 
   <div class="form__group">
-    <button href="#" class="btn btn--white">search you`r profile</button>
+    <button [routerLink]="username === '' ? [] : ['/profile']" class="btn btn--white" type="submit">search you`r profile</button>
   </div>
 </form>
