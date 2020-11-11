@@ -11,7 +11,8 @@ import { FeaturesComponent } from './features/features.component';
   declarations: [HeaderComponent, ButtonComponent, AboutComponent, FeaturesComponent],
   exports: [
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    FeaturesComponent
   ],
   imports: [
     CommonModule,
