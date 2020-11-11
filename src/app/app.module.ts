@@ -10,6 +10,7 @@ import {EffectsModule} from '@ngrx/effects';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {environment} from '../environments/environment.prod';
 import {RouterModule} from '@angular/router';
+import {PagesModule} from './pages/pages.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,8 @@ import {RouterModule} from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
+    // modulos independientes
+    PagesModule,
     // modulos NgRx
     // este modulo instancia y carga los reducers que esten en appReducers.
     StoreModule.forRoot(appReducers),
